@@ -8,6 +8,7 @@ public class leadsteps extends basesteps {
     @When("user click on new lead")
     public void click_on_new_lead() {
        hp.ClickNewLead();
+        System.out.println("hello Laxmi");
     }
     @Then("fill all mandatory fields and click on save")
     public void create_lead() {
