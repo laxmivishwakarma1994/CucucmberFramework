@@ -13,6 +13,8 @@ public class leadsteps extends basesteps {
     @Then("fill all mandatory fields and click on save")
     public void create_lead() {
         ldp.createlead_with_mandatory_fields(dt.get(TCName).get("FirstName"),dt.get(TCName).get("Lastname"),dt.get(TCName).get("Company"));
+        System.out.println("hello");
+
     }
 
     @Then("lead should be created successfully")
